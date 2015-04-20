@@ -26,8 +26,8 @@ function randomNumber(min, max) {
 // Initialize Variables
 var i = 0;
 var peopleArray = [];
-var maleNames = ["Bob", "Mike", "Jim", "Brian", "Scott", "John"];
-var femaleNames = ["Jill", "Roberta", "Michelle", "Jamie", "Shawnella", "Jackie"];
+var maleNames = ["Bob", "Mike", "Jim", "Brian", "Scott", "John", "Giovanni", "Roscoe", "Wyatt", "Henry", "Maurizio"];
+var femaleNames = ["Jill", "Roberta", "Michelle", "Jamie", "Shawnella", "Jackie", "Alicia", "Erica", "Gloria", "Andrea", "Malena", "Brittany", "Samantha"];
 
 // jQuery
 $(document).ready(function(){

@@ -2,6 +2,9 @@
 background-color: #07AA9E;
 width: 100px;
 height: 100px;
+text-align: center;
+font-style: "Shift", monospace;
+font-size: 20px;
 }
 
 #homies {

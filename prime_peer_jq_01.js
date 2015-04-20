@@ -33,7 +33,7 @@ var femaleNames = ["Jill", "Roberta", "Michelle", "Jamie", "Shawnella", "Jackie"
 $(document).ready(function(){
   $("#someButton").on("click", function(){
     // Create person on button click
-    peopleArray[i] = new Person(randomNumber(1,100), randomNumber(1,2), randomNumber(1,100));
+    peopleArray[i] = new Person(randomNumber(10,100), randomNumber(1,2), randomNumber(70,300));
     // Append a person
     $("#people").append("<tr id='homies'><td>Person " + i + ": " + peopleArray[i].name + "</td>" + "<td> age: " + peopleArray[i].age + "</td>" + "<td> sex: " + peopleArray[i].sex + "</td>" + "<td> weight: " + peopleArray[i].weight + "</td></p>");
 
